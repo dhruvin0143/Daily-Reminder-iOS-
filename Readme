@@ -1,0 +1,99 @@
+# 📱 SmartRemind – Intelligent Daily Reminder & Habit Tracker
+
+SmartRemind is a modern iOS productivity application designed to help users efficiently manage daily tasks, habits, and recurring reminders from a single platform.
+
+Built using **SwiftUI**, **Core Data**, and **UserNotifications**, the app provides an intuitive user experience with smart scheduling, habit tracking, template-based reminders, and customizable notifications.
+
+---
+video demo :-  https://www.linkedin.com/posts/dhruvin-prajapati-00167822a_iosdevelopment-swiftui-swift-ugcPost-7478084870183911424-pzjA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADloVQEB4Q3lUTGJyA-1BtId80IbleN2o6k
+## 🚀 Features
+
+### ✅ Task Management
+- Create, edit, and delete tasks
+- Priority-based organization
+- Due date and time scheduling
+- Daily completion tracking
+
+### ✅ Habit Tracking
+- Create recurring habits
+- Mark habits as completed
+- Automatic daily reset
+- Progress monitoring
+
+### ✅ Smart Reminder Templates
+- Birthday Reminder Templates
+- Daily Important Activity Templates
+- Quick reminder creation
+- Reusable reminder workflows
+
+### ✅ Notification System
+- Local notifications
+- Repeat alerts (2, 5, and 10-minute intervals)
+- Deep-link navigation from notifications
+- Priority-based reminder handling
+
+### ✅ Today Dashboard
+- Displays all reminders due today
+- Completion tracking
+- Dynamic filtering
+- Clean card-based interface
+
+### ✅ Statistics Dashboard
+- Daily completion insights
+- Productivity tracking
+- Reminder analytics
+- Habit performance monitoring
+
+### ✅ User Experience
+- Dark Theme Support
+- Light Theme Support
+- Responsive SwiftUI Design
+- Smooth Navigation
+
+### ✅ Offline Support
+- Core Data Persistence
+- Local Data Storage
+- No Internet Required
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Swift | Programming Language |
+| SwiftUI | User Interface |
+| Core Data | Local Database |
+| UserNotifications | Notification Management |
+| WidgetKit | Home Screen Widgets |
+| MVVM | Architecture Pattern |
+
+---
+
+## 📊 Project Highlights
+
+- Supports **3 reminder types** (Tasks, Habits, Templates)
+- Handles **50+ reminders and habits efficiently**
+- Provides **100% offline functionality**
+- Includes **repeat notification engine**
+- Implements **modern SwiftUI architecture**
+- Features **Dark and Light Themes**
+
+## 🏗 Project Structure
+
+```text
+SmartRemind
+│
+├── Models
+├── Views
+│   ├── Today
+│   ├── Tasks
+│   ├── Habits
+│   ├── Templates
+│   └── Settings
+│
+├── Services
+├── Managers
+├── Widgets
+├── CoreData
+└── Resources
